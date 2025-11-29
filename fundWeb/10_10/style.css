@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+span{
+    color: rgb(86, 153, 219);
+}
+img{
+    padding: 5px;
+}
+button{
+    margin: 25px 0 0 0 ;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.rdnd{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.titulo{
+    text-align: left;
+    padding: 30px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.menu{
+    color: white;
+    font-size: 1em;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu i{
+    margin-right: 8px;
+}
+.apr{
+    text-align: center;
+    padding: 150px 0 0 0;
+    
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)),url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    background-position: center;
+    margin: 0;
+    background-size: 100%;
+}
+.btn1{
+    background-color: rgb(86, 153, 219);
+    color: white;
+}
+
+.div1{
+    padding: 40px 100px 50px 150px;
+    display: flex;
+    align-items: center;
+}
+.div1 p{
+    color: gray;
+    margin: 30px 100px 0 0;
+    text-align: justify;
+}
+.div1 .txt{
+    margin-left: 50px;
+}
+
+.div2{
+    background-color: rgb(86, 153, 219);
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 40px 200px 50px 150px;
+    align-items: center;
+}
+.div2 img{
+    border: 1px solid #fff;
+}
+.div2 p{
+    margin: 30px 0 0 0;
+    text-align: justify;
+}
+.div2 .txt{
+    text-align: left;
+    margin-right: 50px;
+}
+.btn2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(86, 153, 219);
+}
+
+.rdnd2{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.div3{
+    margin: 0 200px 0 200px;
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+.div3 p{
+    color:grey;
+}
+.div3 h1{
+    margin-bottom: 15px;
+}
+.cab{
+    margin: 30px 0 50px 0;
+}  
+.galeria{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+.galeria .item{
+    text-align: center;
+    width: 220px;
+}
+.galeria .item p{
+    margin-top: 15px;
+    font-size: small;
+}
+.galeria .item button{
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+footer .social i{
+    font-size: 20px;
+    color: grey;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+footer .creditos{
+    color: grey;
+    font-size: 12px;
+}
